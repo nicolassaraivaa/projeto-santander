@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif
+}
+
+.cabecalho{
+    padding: 25px;
+}
+
+
+.logo{
+    width: 130px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.link-voce{
+    color: red;
+    margin-left: 30px; /*margem ao lado esquerdo*/
+    font-size: 20px;
+    font-weight: 700; /*largura da letra*/
+}
+
+.link-empresa{
+    color: black;
+    margin-left: 30px; 
+    font-size: 20px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#procura{
+    border: none;
+    margin-left: 50px;
+    width: 300px;
+    height: 20px;
+}
+
+.background{
+    width: 100%;
+}
+
+h3{
+    margin-left: 200px;
+    margin: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul{
+    display: flex; /*conseguimos mover os itens para a direção que desejamormos*/
+    justify-content: center;
+    gap: 30px; /*da espaçamentos entre os itens*/
+    margin-bottom: 50px;
+}
+
+li{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 150px;
+    width: 190px;
+    display: inline-block;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+li:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+
+.produtos{
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
